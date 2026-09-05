@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: wise-man-ussd
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NETPULSE_API_KEY
+        sync: false
