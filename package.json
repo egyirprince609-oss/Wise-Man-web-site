@@ -1,0 +1,8 @@
+{
+  "name": "wise-man-ussd",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {"build": "echo Building Wise Man USSD functions"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"express": "^5.1.0", "serverless-http": "^3.2.0"}
+}
